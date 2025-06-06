@@ -1,18 +1,25 @@
 # ex02Node
-# calculadora-soma-express
+# 🧮 Calculadora com Node.js e Express
 
-API simples com Node.js e Express para operações matemáticas básicas.
+Este projeto é uma API feita com Node.js e Express que permite realizar operações matemáticas básicas diretamente pela URL.
 
-## Rotas disponíveis
+## ✅ O que o projeto faz
 
-- GET /soma/:a/:b — soma de a e b  
-- GET /subtrair/:a/:b — subtração de a por b  
-- GET /multiplicar/:a/:b — multiplicação de a por b  
-- GET /dividir/:a/:b — divisão de a por b (com tratamento para divisão por zero)
+A API possui rotas para:
 
-## Como rodar o projeto
+- Somar dois números: `GET /soma/:a/:b`
+- Subtrair dois números: `GET /subtrair/:a/:b`
+- Multiplicar dois números: `GET /multiplicar/:a/:b`
+- Dividir dois números: `GET /dividir/:a/:b`
 
-1. Instale as dependências:
+Se tentar dividir por 0, o sistema retorna uma mensagem de erro.
+
+---
+
+## ▶️ Como usar
+
+1. **Instale as dependências:**
 
 ```bash
 npm install
+
